@@ -19,10 +19,11 @@ export function InfoSections() {
         Una crisis silenciosa que puede evitarse con la estrategia correcta
       </p>
     </div>
+    <br/>
 
     <div className="grid md:grid-cols-2 gap-12 text-center">
       <div className="flex flex-col items-center">
-        <div className="text-6xl font-extrabold text-red-600 mb-3">70%</div>
+        <div className="text-3xl font-semibold text-red-600 mb-4">70%</div>
         <p className="text-xl text-gray-700">
           de los adultos mayores en México <br /> no recibe pensión
         </p>
