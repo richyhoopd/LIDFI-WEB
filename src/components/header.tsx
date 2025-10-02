@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from './ui/button';
 import { Phone, Mail, MessageCircle } from 'lucide-react';
-import lidfilogo from '../assets/logoresize.png';
+import lidfilogo from '../assets/logoresize2.png';
 
 export function Header() {
   return (
