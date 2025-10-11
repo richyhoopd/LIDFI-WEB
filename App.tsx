@@ -9,10 +9,29 @@ import { TestimonialsSection } from './src/components/testimonials-section';
 import { FAQSection } from './src/components/faq-section';
 import { CTASection } from './src/components/cta-section';
 import { Footer } from './src/components/footer';
-import { AlertTriangle, BookOpen, Target, CheckCircle } from 'lucide-react';
+import { AlertTriangle, BookOpen, Target, CheckCircle, Calculator, TrendingUp } from 'lucide-react';
+import { CalculatorFormLey97 } from './src/components/calculator-form-ley97';
+import { ResultsPanelLey97 } from './src/components/results-panel-ley97'
 
 
 export default function App() {
+  const [activeCalculatorTab, setActiveCalculatorTab] = useState<'ley73' | 'ley97'>('ley73');
+const [calculationResultsLey97, setCalculationResultsLey97] = useState<{ 
+  pensionEstimada: number; 
+  saldoAfore: number; 
+  modalidadRecomendada: string;
+  añosDeRetiro: number;
+} | null>(null);
+
+// Agrega esta función handler:
+const handleCalculationLey97 = (results: { 
+  pensionEstimada: number; 
+  saldoAfore: number; 
+  modalidadRecomendada: string;
+  añosDeRetiro: number;
+}) => {
+  setCalculationResultsLey97(results);
+};
   const [calculationResults, setCalculationResults] = useState<{ normal: number; optimized: number } | null>(null);
 
   const handleCalculation = (results: { normal: number; optimized: number }) => {
@@ -99,32 +118,154 @@ export default function App() {
   </div>
 </section>
 
-      
-      {/* Calculator Section */}
-      <section className="py-20 bg-gray-50" id='calculator'>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-[#1F294C] mb-4">
-              Descubre Tu Potencial de Pensión
-            </h2>
-            <p className="text-xl text-gray-600">
-              Con solo 4 datos, conoce cuánto podrías estar recibiendo de pensión
-            </p>
-          </div>
-          
+{/* Pensión Garantizada 2025 Section */}
+<section className="bg-gradient-to-b from-blue-50 to-white py-20">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="text-center mb-16">
+      <div className="inline-flex items-center justify-center w-20 h-20 bg-[#1F294C] rounded-full mb-6 shadow-lg">
+        <CheckCircle className="h-10 w-10 text-white" />
+      </div>
+      <h2 className="text-4xl font-bold text-[#1F294C] mb-4">
+        Sabes Cuánto Es Tu Pensión Garantizada en 2025?
+      </h2>
+      <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
+        Si cotizas bajo la <strong>Ley 97 del IMSS</strong> y no alcanzas el ahorro suficiente en tu AFORE, 
+        el gobierno te garantiza una pensión mínima. Pero… ¿es suficiente para vivir con tranquilidad?
+      </p>
+    </div>
+<br />
+    <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 border border-gray-100 max-w-5xl mx-auto">
+      <div className="text-center mb-8">
+        <h3 className="text-2xl font-bold text-[#1F294C] mb-2">Montos de la Pensión Garantizada 2025</h3>
+        <p className="text-gray-600">
+          Los montos dependen de tu edad, semanas cotizadas y salario base.
+        </p>
+      </div>
+
+      <div className="grid md:grid-cols-3 gap-8 text-center">
+        <div className="p-4 bg-blue-50 rounded-xl">
+          <p className="text-4xl font-bold text-[#1F294C] mb-2">$3,414</p>
+          <p className="text-sm text-gray-600 font-medium uppercase tracking-wide">Pensión Mínima</p>
+        </div>
+
+        <div className="p-4 bg-blue-100 rounded-xl">
+          <p className="text-4xl font-bold text-[#1F294C] mb-2">$6,000</p>
+          <p className="text-sm text-gray-600 font-medium uppercase tracking-wide">Promedio Nacional</p>
+        </div>
+
+        <div className="p-4 bg-blue-50 rounded-xl">
+          <p className="text-4xl font-bold text-[#1F294C] mb-2">$10,732</p>
+          <p className="text-sm text-gray-600 font-medium uppercase tracking-wide">Pensión Máxima</p>
+        </div>
+      </div>
+<br/>
+      <div className="mt-10 text-center">
+        <p className="text-lg text-gray-700 leading-relaxed mb-6">
+          La <strong>Pensión Mínima Garantizada</strong> bajo la Ley 97 asegura un ingreso 
+          mensual entre <strong>$3,414 y $10,732</strong> pesos.  
+          Sin embargo, la mayoría de los trabajadores recibe alrededor de <strong>$6,000</strong> al mes, 
+          una cantidad insuficiente para cubrir gastos básicos de vivienda, salud y alimentación.
+        </p>
+
+        <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-6 inline-block max-w-6xl">
+          <p className="text-yellow-800 font-semibold text-lg mb-2">
+            ⚠️ Aún estás a tiempo de mejorar tu futuro financiero.
+          </p>
+          <p className="text-yellow-700">
+            Optimiza tu AFORE, realiza aportaciones voluntarias o explora la <strong>Modalidad 40 </strong> 
+            antes de llegar a la edad de retiro. Cada año cuenta.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+     
+{/* Calculator Section */}
+<section className="py-20 bg-gray-50" id='calculator'>
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="text-center mb-12">
+      <h2 className="text-4xl font-bold text-[#1F294C] mb-4">
+        Descubre Tu Potencial de Pensión
+      </h2>
+      <p className="text-xl text-gray-600">
+        Con solo 4 datos, conoce cuánto podrías estar recibiendo de pensión
+      </p>
+    </div>
+    
+    {/* Tabs Container */}
+<div className="max-w-6xl mx-auto">
+  {/* Tab Buttons */}
+  <div className="flex justify-center mb-8">
+    <div className="inline-flex rounded-lg shadow-sm bg-white p-1 border border-gray-200" role="group">
+      {/* Ley 73 */}
+      <button
+        onClick={() => setActiveCalculatorTab('ley73')}
+        className={`
+          flex items-center gap-2 px-6 py-3 text-sm font-semibold rounded-l-lg transition-all duration-200
+          ${
+            activeCalculatorTab === 'ley73'
+              ? 'bg-[#1F294C] text-white shadow-md'
+              : 'bg-white text-gray-700 hover:bg-gray-50 border border-transparent hover:border-gray-200'
+          }
+        `}
+      >
+        <Calculator className="w-5 h-5" />
+        Calcular Ley 73
+      </button>
+
+      {/* Ley 97 */}
+      <button
+        onClick={() => setActiveCalculatorTab('ley97')}
+        className={`
+          flex items-center gap-2 px-6 py-3 text-sm font-semibold rounded-r-lg transition-all duration-200
+          ${
+            activeCalculatorTab === 'ley97'
+              ? 'bg-[#1F294C] text-white shadow-md'
+              : 'bg-white text-gray-700 hover:bg-gray-50 border border-transparent hover:border-gray-200'
+          }
+        `}
+      >
+        <TrendingUp className="w-5 h-5" />
+        Calcular Ley 97
+      </button>
+    </div>
+  </div>
+</div>
+    <div className="max-w-4xl mx-auto">
+
+      {/* Tab Content */}
+      <div className="mt-8">
+        {activeCalculatorTab === 'ley73' ? (
           <div className="grid lg:grid-cols-2 gap-8 items-start">
-            {/* Calculator Form - Left */}
+            {/* Calculator Form Ley 73 - Left */}
             <div>
               <CalculatorForm onCalculate={handleCalculation} />
             </div>
             
-            {/* Results Panel - Right */}
+            {/* Results Panel Ley 73 - Right */}
             <div>
               <ResultsPanel results={calculationResults} />
             </div>
           </div>
-        </div>
-      </section>
+        ) : (
+          <div className="grid lg:grid-cols-2 gap-8 items-start">
+            {/* Calculator Form Ley 97 - Left */}
+            <div>
+              <CalculatorFormLey97 onCalculate={handleCalculationLey97} />
+            </div>
+            
+            {/* Results Panel Ley 97 - Right */}
+            <div>
+              <ResultsPanelLey97 results={calculationResultsLey97} />
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  </div>
+</section>
       
       <InfoSections />
       <TestimonialsSection />

@@ -13,7 +13,7 @@ export function HeroSection() {
               Tu Retiro No Es Casualidad,
               <span className="block text-[#04A6CC]">Es Estrategia</span>
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-gray-200 ">
+            <p className="text-xl md:text-2xl mb-8 text-gray-200 F">
               Maximiza tu pensión y asegura un futuro digno. El 70% de los mexicanos no recibe pensión, tú puedes ser diferente.
             </p>
             

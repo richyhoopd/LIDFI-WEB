@@ -22,7 +22,7 @@ export function Header() {
           <div className="hidden md:flex items-center space-x-6">
             <div className="flex items-center space-x-2 text-[#234567]">
               <Phone className="h-4 w-4" />
-              <span className="text-sm">+52 (33) 1301-3253</span>
+              <span className="text-sm">+52 (33) 2606-9751</span>
             </div>
             <div className="flex items-center space-x-2 text-[#234567]">
               <Mail className="h-4 w-4" />

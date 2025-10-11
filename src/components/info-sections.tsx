@@ -52,7 +52,6 @@ export function InfoSections() {
   </div>
 </section>
 
-
       {/* Strategies Section */}
       <section className="bg-gray-50 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
