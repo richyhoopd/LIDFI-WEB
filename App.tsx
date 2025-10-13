@@ -266,6 +266,127 @@ const handleCalculationLey97 = (results: {
     </div>
   </div>
 </section>
+      {/* Savings Section 1 - 40 to 65 years */}
+      <section className="py-20 bg-gradient-to-br from-[#04A6CC] to-[#1F294C]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Left Content */}
+            <div className="text-white">
+              <h2 className="text-4xl font-bold text-[#fff]">
+                ¿40 Años y Sin Plan de Retiro? 
+                <span className="block text-yellow-300 mt-2">¡Aún Estás a Tiempo!</span>
+              </h2>
+              <br />
+              <p className="text-2xl mb-8 text-blue-100 font-semibold">
+                Con solo $2,000 MXN al mes hasta los 65 años, podrías acumular: $1,929,394 Para tu retiro digno y tranquilo
+              </p>
+              
+              <ul className="space-y-4 mb-8 text-lg">
+                <li className="flex items-start gap-3">
+                  <span className="text-2xl">💰</span>
+                  <span>Solo $2,000 pesos mensuales - menos que una salida al restaurante</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-2xl">📈</span>
+                  <span>Rendimientos compuestos trabajando para ti por 25 años</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-2xl">🏖️</span>
+                  <span>Retírate con tranquilidad financiera y disfruta tu vejez</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-2xl">🛡️</span>
+                  <span>Protege a tu familia y deja un legado</span>
+                </li>
+              </ul>
+
+              <a 
+                href="https://wa.me/5213326069751?text=Hola,%20quiero%20información%20sobre%20el%20plan%20de%20ahorro%20para%20el%20retiro"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-3 bg-white text-[#1F294C] px-8 py-4 rounded-lg text-lg font-bold hover:bg-yellow-300 transition-all hover:scale-105 shadow-2xl"
+              >
+                💬 Quiero Comenzar a Ahorrar Ahora
+              </a>
+            </div>
+
+            {/* Right Image */}
+            <div className="relative">
+              <div className="bg-white rounded-3xl p-8 shadow-2xl">
+                <img 
+                  src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=600&h=600&fit=crop" 
+                  alt="Pareja feliz planificando su retiro"
+                  className="rounded-2xl w-full h-auto object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Savings Section 2 - 30+ years, 10 year plan */}
+      <section className="py-20 bg-gradient-to-br from-white to-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            {/* Left Image */}
+            <div className="relative order-2 lg:order-1">
+              <div className="bg-gradient-to-br from-[#04A6CC] to-[#1F294C] rounded-3xl p-8 shadow-2xl">
+                <img 
+                  src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=600&h=600&fit=crop" 
+                  alt="Joven profesionista planificando su futuro"
+                  className="rounded-2xl w-full h-auto object-cover"
+                />
+              </div>
+            </div>
+
+            {/* Right Content */}
+            <div className="order-1 lg:order-2">
+              <h2 className="text-4xl font-bold text-[#1F294C] mb-6 leading-tight">
+                ¿Treintañero? Tienes el Poder del Tiempo
+              </h2>
+              <p className="text-2xl mb-6 text-gray-700 font-semibold">
+                Ahorra $2,000 al mes durante 10 años y a los 65 años podrías tener: <b>+$1,000,000</b> sin aportar un peso más después del año 10
+              </p>
+            
+
+              <div className="bg-blue-50 rounded-xl p-6 mb-8 border-l-4 border-[#04A6CC]">
+                <p className="text-gray-700 font-semibold text-lg">
+                  📊 <strong>El Secreto:</strong> El interés compuesto hará crecer tu dinero automáticamente 
+                  por más de 25 años adicionales. ¡Tu dinero trabaja mientras tú vives!
+                </p>
+              </div>
+
+              <ul className="space-y-4 mb-8 text-lg text-gray-700">
+                <li className="flex items-start gap-3">
+                  <span className="text-2xl">⏰</span>
+                  <span><strong>Solo 10 años de ahorro</strong> - Del año 30 al 40 de tu vida</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-2xl">🚀</span>
+                  <span><strong>Efecto multiplicador</strong> - Tu dinero crece exponencialmente con el tiempo</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-2xl">🎯</span>
+                  <span><strong>Inversión total:</strong> $240,000 se convierten en +$1,000,000</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-2xl">✨</span>
+                  <span><strong>Libertad financiera</strong> - Retírate antes de los 65 si lo deseas</span>
+                </li>
+              </ul>
+
+              <a 
+                href="https://wa.me/5213326069751?text=Hola,%20tengo%2030%20años%20y%20quiero%20información%20sobre%20el%20plan%20de%20ahorro%20de%2010%20años"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-3 bg-[#04A6CC] text-white px-8 py-4 rounded-lg text-lg font-bold hover:bg-[#1F294C] transition-all hover:scale-105 shadow-xl"
+              >
+                💬 Comenzar Mi Plan de 10 Años
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
       
       <InfoSections />
       <TestimonialsSection />
