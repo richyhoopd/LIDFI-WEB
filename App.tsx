@@ -273,7 +273,7 @@ const handleCalculationLey97 = (results: {
             {/* Left Content */}
             <div className="text-white">
               <h2 className="text-4xl font-bold text-[#fff]">
-                ¿40 Años y Sin Plan de Retiro? 
+                Plan de Ahorro Para el Retiro 100% deducible de impuestos
                 <span className="block text-yellow-300 mt-2">¡Aún Estás a Tiempo!</span>
               </h2>
               <br />
@@ -296,7 +296,7 @@ const handleCalculationLey97 = (results: {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-2xl">🛡️</span>
-                  <span>Protege a tu familia y deja un legado</span>
+                  <span>Protege a tu familia con un seguro de vida</span>
                 </li>
               </ul>
 
@@ -342,10 +342,10 @@ const handleCalculationLey97 = (results: {
             {/* Right Content */}
             <div className="order-1 lg:order-2">
               <h2 className="text-4xl font-bold text-[#1F294C] mb-6 leading-tight">
-                Plan Privado de Pensión
+                ¿Tienes 30 años? Necesitas un Plan Privado de Pensión
               </h2>
               <p className="text-2xl mb-6 text-gray-700 font-semibold">
-                Ahorra $2,000 al mes durante 10 años y a los 65 años podrías tener: <b>+$1,000,000</b> sin aportar un peso más después del año 10
+                Ahorra $3,000 al mes durante 10 años y a los 65 años podrías tener: <b>+$1,225,000</b> sin aportar un peso más después del año 10
               </p>
             
 
@@ -367,7 +367,7 @@ const handleCalculationLey97 = (results: {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-2xl">🎯</span>
-                  <span><strong>Inversión total:</strong> $240,000 se convierten en +$1,000,000</span>
+                  <span><strong>Inversión total:</strong> $360,000 se convierten en +$1,225,000</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-2xl">✨</span>
