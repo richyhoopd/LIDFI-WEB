@@ -342,7 +342,7 @@ const handleCalculationLey97 = (results: {
             {/* Right Content */}
             <div className="order-1 lg:order-2">
               <h2 className="text-4xl font-bold text-[#1F294C] mb-6 leading-tight">
-                ¿Treintañero? Tienes el Poder del Tiempo
+                Plan Privado de Pensión
               </h2>
               <p className="text-2xl mb-6 text-gray-700 font-semibold">
                 Ahorra $2,000 al mes durante 10 años y a los 65 años podrías tener: <b>+$1,000,000</b> sin aportar un peso más después del año 10
