@@ -1,7 +1,7 @@
 // EstoEsTuDerecho.tsx
 import React from 'react';
 import { ShieldCheck } from 'lucide-react';
-import imgder from '../assets/tabla.jpg'
+import imgder from '../assets/tabla.jpg';
 
 export function EstoEsTuDerecho() {
   return (
