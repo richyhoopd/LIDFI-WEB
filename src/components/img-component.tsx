@@ -2,7 +2,6 @@
 import React from 'react';
 import { ShieldCheck } from 'lucide-react';
 import imgder from '../assets/tabla.jpg';
-
 export function EstoEsTuDerecho() {
   return (
     <section className="bg-gray-50 py-24">
