@@ -12,6 +12,7 @@ import { Footer } from './src/components/footer';
 import { AlertTriangle, BookOpen, Target, CheckCircle, Calculator, TrendingUp } from 'lucide-react';
 import { CalculatorFormLey97 } from './src/components/calculator-form-ley97';
 import { ResultsPanelLey97 } from './src/components/results-panel-ley97'
+import { EstoEsTuDerecho } from './src/components/img-component';
 
 
 export default function App() {
@@ -387,7 +388,7 @@ const handleCalculationLey97 = (results: {
           </div>
         </div>
       </section>
-      
+      <EstoEsTuDerecho />
       <InfoSections />
       <TestimonialsSection />
       <FAQSection />
