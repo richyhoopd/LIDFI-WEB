@@ -23,9 +23,14 @@ export const ResultsPanelLey97: React.FC<ResultsPanelLey97Props> = ({ results })
           <h3 className="text-xl font-semibold text-gray-700 mb-2">
             Ingresa tus datos para ver tu proyección
           </h3>
-          <p className="text-gray-500">
-            Tu cálculo de pensión aparecerá aquí
-          </p>
+          <div className="bg-red-50 border border-red-200 rounded-xl p-4 mb-6">
+                  <div className="flex items-start gap-2">
+                    <Info className="h-6 w-6 text-red-600 mt-0.5 flex-shrink-0" />
+                    <p className="text-md text-red-800 leading-relaxed">
+                      Tu pension dependera exclusivamente del saldo acumulado en tu cuenta de Afore
+                    </p>
+                  </div>
+                </div>
         </div>
       </div>
     );

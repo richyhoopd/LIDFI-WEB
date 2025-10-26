@@ -1,13 +1,13 @@
 // EstoEsTuDerecho.tsx
 import React from 'react';
 import { ShieldCheck } from 'lucide-react';
-import imgder from '../assets/tabla.jpg';
+import imgder from '../assets/tablacustom.jpg';
 export function EstoEsTuDerecho() {
   return (
     <section className="bg-gray-50 py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         {/* Encabezado */}
-        <div className="mb-12">
+        {/* <div className="mb-12">
             <br />
           <div className="inline-flex items-center justify-center w-20 h-20 bg-[#1F294C] rounded-full mb-6 shadow-lg">
             <ShieldCheck className="h-10 w-10 text-white" />
@@ -19,7 +19,7 @@ export function EstoEsTuDerecho() {
             La pensión no es un favor del Estado, es el resultado de tus años de esfuerzo, trabajo y aportaciones.  
             Conoce lo que te pertenece y asegúrate de hacerlo valer.
           </p>
-        </div>
+        </div> */}
 
         {/* Imagen principal */}
         <div className="flex justify-center">

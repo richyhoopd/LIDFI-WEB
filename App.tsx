@@ -267,6 +267,8 @@ const handleCalculationLey97 = (results: {
     </div>
   </div>
 </section>
+      <EstoEsTuDerecho />
+
       {/* Savings Section 1 - 40 to 65 years */}
       <section className="py-20 bg-gradient-to-br from-[#04A6CC] to-[#1F294C]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -388,7 +390,6 @@ const handleCalculationLey97 = (results: {
           </div>
         </div>
       </section>
-      <EstoEsTuDerecho />
       <InfoSections />
       <TestimonialsSection />
       <FAQSection />
