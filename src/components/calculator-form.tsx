@@ -48,8 +48,8 @@ export function CalculatorForm({ onCalculate }: CalculatorFormProps) {
     }
 
     // ❌ Ley 73 se pensiona con 1300 semanas
-    if (weeks < 1300) {
-      Swal.fire('Operación inválida', 'Actualmente necesitas mínimo 1,300 semanas para pensionarte bajo la Ley 73.', 'error');
+    if (weeks < 500) {
+      Swal.fire('Operación inválida', 'Actualmente necesitas mínimo 500 semanas para pensionarte bajo la Ley 73.', 'error');
       return;
     }
 
