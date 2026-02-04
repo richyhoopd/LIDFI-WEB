@@ -12,7 +12,7 @@ import { Footer } from './src/components/footer';
 import { AlertTriangle, BookOpen, Target, CheckCircle, Calculator, TrendingUp } from 'lucide-react';
 import { CalculatorFormLey97 } from './src/components/calculator-form-ley97';
 import { ResultsPanelLey97 } from './src/components/results-panel-ley97'
-import { EstoEsTuDerecho } from './src/components/img-component';
+import RetirementTable from './src/components/retirementTable';
 
 
 export default function App() {
@@ -267,7 +267,11 @@ const handleCalculationLey97 = (results: {
     </div>
   </div>
 </section>
-      <EstoEsTuDerecho />
+
+
+      <RetirementTable />
+
+
 
       {/* Savings Section 1 - 40 to 65 years */}
       <section className="py-20 bg-gradient-to-br from-[#04A6CC] to-[#1F294C]">
