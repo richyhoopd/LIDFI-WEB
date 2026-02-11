@@ -7,17 +7,17 @@ const testimonials = [
   {
     id: 1,
     name: "MARIA DEL ROSARIO CORONA MORALES",
-    text: "Gracias a LIDFI logré una pensión de $26,639.00. Tenía dos años sin cotizar, llegué con ellos y no solo me pensioné sino que también me financiaron la MOD 40 y tengo una pensión digna."
+    text: "Gracias a PENSION+ logré una pensión de $26,639.00. Tenía dos años sin cotizar, llegué con ellos y no solo me pensioné sino que también me financiaron la MOD 40 y tengo una pensión digna."
   },
   {
     id: 2,
     name: "RAMON HERNANDEZ OCHOA",
-    text: "Gracias a que me acerqué con tiempo a LIDFI, me asesoraron y me llevaron de la mano para alcanzar una pensión de $30,036.00. Una buena pensión sí es posible."
+    text: "Gracias a que me acerqué con tiempo a PENSION+, me asesoraron y me llevaron de la mano para alcanzar una pensión de $30,036.00. Una buena pensión sí es posible."
   },
   {
     id: 3,
     name: "MARIA MAGDALENA MARTINEZ",
-    text: "Gracias a LIDFI me pude pensionar ya que tenía muchos años sin cotizar y con su ayuda pude pensionarme, recuperé mis derechos y ya disfruto de una pensión."
+    text: "Gracias a PENSION+ me pude pensionar ya que tenía muchos años sin cotizar y con su ayuda pude pensionarme, recuperé mis derechos y ya disfruto de una pensión."
   }
 ];
 

@@ -12,7 +12,7 @@ export function Header() {
   <a href="/" className="block">
     <img
       src={lidfilogo}
-      alt="LIDFI Logo"
+      alt="pensionmas Logo"
       className="h-20 w-auto max-w-[180px] object-contain"
     />
   </a>
@@ -25,7 +25,7 @@ export function Header() {
             </div>
             <div className="flex items-center space-x-2 text-[#234567]">
               <Mail className="h-4 w-4" />
-              <span className="text-sm">contacto@lidfi.com</span>
+              <span className="text-sm">pensionmas.mx@gmail.com</span>
             </div>
             <Button size="lg" className="bg-[#1F294C] hover:bg-[#234567] text-white px-6 py-3 flex items-center gap-2">
               <MessageCircle className="h-5 w-5" />

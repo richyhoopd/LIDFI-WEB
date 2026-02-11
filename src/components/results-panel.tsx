@@ -48,7 +48,7 @@ export function ResultsPanel({ results }: ResultsPanelProps) {
           </div>
           <div className="flex items-center gap-2 mb-2">
             <ArrowUp className="h-6 w-6 text-yellow-400" />
-            <h4 className="text-lg">Con asesoría de LIDFI podrías pensionarte con:</h4>
+            <h4 className="text-lg">Con asesoría de PENSION+ podrías pensionarte con:</h4>
           </div>
           <p className="text-4xl font-bold mb-1">
             ${results.optimized.toLocaleString('es-MX', { minimumFractionDigits: 2 })}

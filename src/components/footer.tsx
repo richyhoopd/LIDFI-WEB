@@ -7,7 +7,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-2xl text-[#04A6CC] mb-4">LIDFI</h3>
+            <h3 className="text-2xl text-[#04A6CC] mb-4">PENSIÓN+</h3>
             <p className="text-gray-300 mb-4">
               Asesoría Financiera y Patrimonial especializada en maximizar tu pensión y asegurar tu futuro.
             </p>
@@ -60,7 +60,7 @@ export function Footer() {
         </div>
         
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2025 LIDFI Asesoría Financiera y Patrimonial. Todos los derechos reservados.</p>
+          <p>&copy; 2025 PENSION+ Asesoría Financiera y Patrimonial. Todos los derechos reservados.</p>
           <p className="mt-2 text-sm">
             La información proporcionada es de carácter informativo y no constituye asesoría legal o financiera personalizada.
           </p>
